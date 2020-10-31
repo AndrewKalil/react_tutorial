@@ -1,0 +1,191 @@
+body {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myFooter {
+    background-color: #333;
+    color: whitesmoke;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    font-size: large;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+.TodoList {
+    background-color:white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    padding: 30px;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15),
+        0 10px 0px -5px #eee,
+        0 10px 1px -4px rgba(0,0,0,0.15),
+        0 20px 0px -10px #eee,
+        0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 25%;
+    height: 90px;
+    border-bottom: 1px solid #cecece;
+    font-family: Rotobo, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.catImages {
+    height: 275px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.jokeCard, .productCard {
+    width: 15%;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 3px 6px 3px 6px;
+    background-color:beige;
+    color: black;
+    padding: 0px 5px 0px 10px;
+}
+
+.jokeCards, .productList {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=button] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 20px;
+    width: 30px;
+}
+
+.buttonDiv {
+    width: 25%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.questionDiv {
+    height: 100px;
+    margin: 0px 5px 0px 5px;
+    color: white;
+    text-align: center;
+
+}
+
+.punchlineDiv {
+    height: 40px;
+    color: white;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+
+/*This section is for the memegenerator*/
+
+.myPageLogo {
+    display: flex;
+    width: 135px;
+    height: 135px;
+    margin-right: 75px;
+    margin-left: 65px;
+}
+
+.myPageHeader {
+    background-image: linear-gradient(to right, cyan , yellow);
+    border: 1px solid black;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.meme-form {
+    margin-top: 15px;
+}
+
+.meme-form > button {
+    background-image: linear-gradient(to right, cyan , yellow);
+    width: 45px;
+    height: 25px;
+    font-family: monospace;
+    font-style: initial;
+}
+
+.inputBoxes {
+    height: 19px;
+    width: 400px;
+    font-family: monospace;
+    font-style: initial;
+    margin-right: 3px;
+}
+
+.meme {
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.memeImg {
+    left: 50%;
+}
+
+.top {
+    position: absolute;
+    top: 8px;
+    left: 36%;
+    font-size: 26px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 8px;
+    right: 36%;
+    font-size: 26px;
+}
+
+/*This section is the end of the section for the memegenerator*/
